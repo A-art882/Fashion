@@ -1,0 +1,91 @@
+ .{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #d7a27e;
+    color: #4a2f1c;
+ }
+
+ .container{
+    width: 90%;
+    max-width: 400px;
+    background-color: #f3e3d5;
+    padding: 20px;
+    border: 10px solid #4a2f1c;
+ }
+
+ .hedear{
+    text-align: center;
+    margin-bottom: 20px;
+     }
+     
+     .icon{
+        font-size: 2.5em;
+     }
+
+h1 {
+    font-size: 2em;
+    color: #a0522d;
+    font-weight: bold;
+}
+
+.Visit-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #a0522d;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.Visit-button:hover{
+    background-color: #8b4513;
+}
+
+.content {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.image-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1-px;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+}
+
+.shop-now {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 20px;
+    background-color: #a0522d;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.shop-now:hover {
+    background-color: #8b4513;
+}
